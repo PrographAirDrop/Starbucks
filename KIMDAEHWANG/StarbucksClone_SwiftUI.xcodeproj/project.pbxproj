@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B409581D29E149B700101DCB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B409581C29E149B700101DCB /* HomeView.swift */; };
+		B409581F29E149BC00101DCB /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B409581E29E149BC00101DCB /* OrderView.swift */; };
+		B409582129E149C500101DCB /* MyMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B409582029E149C500101DCB /* MyMenuView.swift */; };
+		B409582329E149C900101DCB /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B409582229E149C900101DCB /* CartView.swift */; };
+		B409582629E1509A00101DCB /* UIScreen+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = B409582529E1509A00101DCB /* UIScreen+Size.swift */; };
+		B40E77F329E1311E00860A55 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40E77F229E1311E00860A55 /* SplashView.swift */; };
+		B455C4172A078F9100FB8403 /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B455C4162A078F9100FB8403 /* OrderViewModel.swift */; };
+		B455C4192A07915D00FB8403 /* OrderCategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B455C4182A07915D00FB8403 /* OrderCategoryViewModel.swift */; };
+		B455C41B2A0793CE00FB8403 /* OrderBeverageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B455C41A2A0793CE00FB8403 /* OrderBeverageViewModel.swift */; };
+		B45F2C7729E2A2C500BFCD16 /* OrderCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45F2C7629E2A2C500BFCD16 /* OrderCategoryView.swift */; };
+		B45F2C7A29E2A2E800BFCD16 /* OrderBeverageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45F2C7929E2A2E800BFCD16 /* OrderBeverageView.swift */; };
+		B4D1050B29DFAA2F00629C1D /* StarbucksClone_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D1050A29DFAA2F00629C1D /* StarbucksClone_SwiftUIApp.swift */; };
+		B4D1050D29DFAA2F00629C1D /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D1050C29DFAA2F00629C1D /* MainTabView.swift */; };
+		B4D1050F29DFAA3100629C1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4D1050E29DFAA3100629C1D /* Assets.xcassets */; };
+		B4D1051229DFAA3100629C1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4D1051129DFAA3100629C1D /* Preview Assets.xcassets */; };
+		B4F7B79C29E12B40002BC08F /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F7B79929E12B40002BC08F /* Banner.swift */; };
+		B4F7B79D29E12B40002BC08F /* Beverage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F7B79A29E12B40002BC08F /* Beverage.swift */; };
+		B4F7B79E29E12B40002BC08F /* WhatsNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F7B79B29E12B40002BC08F /* WhatsNew.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B409581C29E149B700101DCB /* HomeView.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; tabWidth = 2; };
+		B409581E29E149BC00101DCB /* OrderView.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; tabWidth = 2; };
+		B409582029E149C500101DCB /* MyMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMenuView.swift; sourceTree = "<group>"; };
+		B409582229E149C900101DCB /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		B409582529E1509A00101DCB /* UIScreen+Size.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = "UIScreen+Size.swift"; sourceTree = "<group>"; tabWidth = 2; };
+		B40E77F229E1311E00860A55 /* SplashView.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; tabWidth = 2; };
+		B455C4162A078F9100FB8403 /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
+		B455C4182A07915D00FB8403 /* OrderCategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCategoryViewModel.swift; sourceTree = "<group>"; };
+		B455C41A2A0793CE00FB8403 /* OrderBeverageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderBeverageViewModel.swift; sourceTree = "<group>"; };
+		B45F2C7629E2A2C500BFCD16 /* OrderCategoryView.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = OrderCategoryView.swift; sourceTree = "<group>"; tabWidth = 2; };
+		B45F2C7929E2A2E800BFCD16 /* OrderBeverageView.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = OrderBeverageView.swift; sourceTree = "<group>"; tabWidth = 2; };
+		B4D1050729DFAA2F00629C1D /* StarbucksClone_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarbucksClone_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4D1050A29DFAA2F00629C1D /* StarbucksClone_SwiftUIApp.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = StarbucksClone_SwiftUIApp.swift; sourceTree = "<group>"; tabWidth = 2; };
+		B4D1050C29DFAA2F00629C1D /* MainTabView.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; tabWidth = 2; };
+		B4D1050E29DFAA3100629C1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4D1051129DFAA3100629C1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B4F7B79929E12B40002BC08F /* Banner.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; tabWidth = 2; };
+		B4F7B79A29E12B40002BC08F /* Beverage.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = Beverage.swift; sourceTree = "<group>"; tabWidth = 2; };
+		B4F7B79B29E12B40002BC08F /* WhatsNew.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = WhatsNew.swift; sourceTree = "<group>"; tabWidth = 2; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4D1050429DFAA2F00629C1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A5334AE39D648CE4EB1D458 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B409582429E1508700101DCB /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				B409582529E1509A00101DCB /* UIScreen+Size.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		B409582729E18D6100101DCB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B40E77F029E12F5D00860A55 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B409582729E18D6100101DCB /* Common */,
+				B40E77F229E1311E00860A55 /* SplashView.swift */,
+				B4D1050C29DFAA2F00629C1D /* MainTabView.swift */,
+				B409581C29E149B700101DCB /* HomeView.swift */,
+				B45F2C7829E2A2CB00BFCD16 /* Order */,
+				B409582029E149C500101DCB /* MyMenuView.swift */,
+				B409582229E149C900101DCB /* CartView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B40E77F129E12F6500860A55 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B4D1050E29DFAA3100629C1D /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B455C4112A078E8200FB8403 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B45F2C7829E2A2CB00BFCD16 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				B409581E29E149BC00101DCB /* OrderView.swift */,
+				B455C4162A078F9100FB8403 /* OrderViewModel.swift */,
+				B45F2C7629E2A2C500BFCD16 /* OrderCategoryView.swift */,
+				B455C4182A07915D00FB8403 /* OrderCategoryViewModel.swift */,
+				B45F2C7929E2A2E800BFCD16 /* OrderBeverageView.swift */,
+				B455C41A2A0793CE00FB8403 /* OrderBeverageViewModel.swift */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		B4D104FE29DFAA2F00629C1D = {
+			isa = PBXGroup;
+			children = (
+				B4D1050929DFAA2F00629C1D /* StarbucksClone_SwiftUI */,
+				B4D1050829DFAA2F00629C1D /* Products */,
+				6A5334AE39D648CE4EB1D458 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		B4D1050829DFAA2F00629C1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4D1050729DFAA2F00629C1D /* StarbucksClone_SwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4D1050929DFAA2F00629C1D /* StarbucksClone_SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				B4D1050A29DFAA2F00629C1D /* StarbucksClone_SwiftUIApp.swift */,
+				B4F7B79829E12AE8002BC08F /* Model */,
+				B40E77F029E12F5D00860A55 /* View */,
+				B455C4112A078E8200FB8403 /* ViewModel */,
+				B409582429E1508700101DCB /* Util */,
+				B40E77F129E12F6500860A55 /* Resources */,
+				B4D1051029DFAA3100629C1D /* Preview Content */,
+			);
+			path = StarbucksClone_SwiftUI;
+			sourceTree = "<group>";
+		};
+		B4D1051029DFAA3100629C1D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B4D1051129DFAA3100629C1D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B4F7B79829E12AE8002BC08F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B4F7B79929E12B40002BC08F /* Banner.swift */,
+				B4F7B79A29E12B40002BC08F /* Beverage.swift */,
+				B4F7B79B29E12B40002BC08F /* WhatsNew.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4D1050629DFAA2F00629C1D /* StarbucksClone_SwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4D1051529DFAA3100629C1D /* Build configuration list for PBXNativeTarget "StarbucksClone_SwiftUI" */;
+			buildPhases = (
+				B4D1050329DFAA2F00629C1D /* Sources */,
+				B4D1050429DFAA2F00629C1D /* Frameworks */,
+				B4D1050529DFAA2F00629C1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarbucksClone_SwiftUI;
+			productName = StarbucksClone_SwiftUI;
+			productReference = B4D1050729DFAA2F00629C1D /* StarbucksClone_SwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4D104FF29DFAA2F00629C1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B4D1050629DFAA2F00629C1D = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = B4D1050229DFAA2F00629C1D /* Build configuration list for PBXProject "StarbucksClone_SwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4D104FE29DFAA2F00629C1D;
+			productRefGroup = B4D1050829DFAA2F00629C1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4D1050629DFAA2F00629C1D /* StarbucksClone_SwiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4D1050529DFAA2F00629C1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4D1051229DFAA3100629C1D /* Preview Assets.xcassets in Resources */,
+				B4D1050F29DFAA3100629C1D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4D1050329DFAA2F00629C1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B455C41B2A0793CE00FB8403 /* OrderBeverageViewModel.swift in Sources */,
+				B455C4192A07915D00FB8403 /* OrderCategoryViewModel.swift in Sources */,
+				B409582329E149C900101DCB /* CartView.swift in Sources */,
+				B4D1050D29DFAA2F00629C1D /* MainTabView.swift in Sources */,
+				B409581F29E149BC00101DCB /* OrderView.swift in Sources */,
+				B45F2C7729E2A2C500BFCD16 /* OrderCategoryView.swift in Sources */,
+				B409581D29E149B700101DCB /* HomeView.swift in Sources */,
+				B455C4172A078F9100FB8403 /* OrderViewModel.swift in Sources */,
+				B4D1050B29DFAA2F00629C1D /* StarbucksClone_SwiftUIApp.swift in Sources */,
+				B409582129E149C500101DCB /* MyMenuView.swift in Sources */,
+				B4F7B79D29E12B40002BC08F /* Beverage.swift in Sources */,
+				B4F7B79C29E12B40002BC08F /* Banner.swift in Sources */,
+				B4F7B79E29E12B40002BC08F /* WhatsNew.swift in Sources */,
+				B409582629E1509A00101DCB /* UIScreen+Size.swift in Sources */,
+				B45F2C7A29E2A2E800BFCD16 /* OrderBeverageView.swift in Sources */,
+				B40E77F329E1311E00860A55 /* SplashView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B4D1051329DFAA3100629C1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B4D1051429DFAA3100629C1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4D1051629DFAA3100629C1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StarbucksClone_SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = TZ3VZ8CUCV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MasonKim.StarbucksClone-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B4D1051729DFAA3100629C1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StarbucksClone_SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = TZ3VZ8CUCV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MasonKim.StarbucksClone-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4D1050229DFAA2F00629C1D /* Build configuration list for PBXProject "StarbucksClone_SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4D1051329DFAA3100629C1D /* Debug */,
+				B4D1051429DFAA3100629C1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4D1051529DFAA3100629C1D /* Build configuration list for PBXNativeTarget "StarbucksClone_SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4D1051629DFAA3100629C1D /* Debug */,
+				B4D1051729DFAA3100629C1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4D104FF29DFAA2F00629C1D /* Project object */;
+}

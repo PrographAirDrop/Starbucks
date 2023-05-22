@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Mint Chocolate Chip Blended.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
